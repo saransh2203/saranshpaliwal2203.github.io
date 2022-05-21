@@ -1,0 +1,78 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXFileReference section */
+		47C76342282D641B00F4C6EE /* ecommerce.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ecommerce.html; sourceTree = "<group>"; };
+		47C76343282D65CC00F4C6EE /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		47C76344282D80E200F4C6EE /* flagcode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = flagcode.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		47C7633B282D640700F4C6EE = {
+			isa = PBXGroup;
+			children = (
+				47C76344282D80E200F4C6EE /* flagcode.md */,
+				47C76343282D65CC00F4C6EE /* styles.css */,
+				47C76342282D641B00F4C6EE /* ecommerce.html */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		47C7633C282D640700F4C6EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+			};
+			buildConfigurationList = 47C7633F282D640700F4C6EE /* Build configuration list for PBXProject "sports.html" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47C7633B282D640700F4C6EE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		47C76340282D640700F4C6EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		47C76341282D640700F4C6EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47C7633F282D640700F4C6EE /* Build configuration list for PBXProject "sports.html" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C76340282D640700F4C6EE /* Debug */,
+				47C76341282D640700F4C6EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47C7633C282D640700F4C6EE /* Project object */;
+}

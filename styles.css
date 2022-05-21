@@ -1,0 +1,694 @@
+body {
+    background-image: linear-gradient(#D1FFFF, #D1FFFF, lightyellow, #F5BC77, lightblue, pink, #9A5FF5, #B468EB, black);
+    height: 4000px;
+}
+
+header {
+    width: 100%;
+    height: 55px;
+    background: white;
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .sitename {
+    font-family: copperplate, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 55px;
+    margin: 0;
+}
+
+.leftheader {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rightheader {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.navigation1 {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 27px;
+    width: 100%;
+    height: 60px;
+    background: black;
+    position: absolute;
+    top: 55px;
+    left: 0;
+}
+
+.country {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.logo {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.login {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.searchbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.video1 {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+}
+
+
+.adventure {
+    position: absolute;
+    top: 99%;
+    font-size: 60px;
+    color: black;
+    z-index: 1;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 15px;
+    word-spacing: 20px;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+.shoe1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 360px;
+    width: 576px;
+    position: absolute;
+    left: 100px;
+    top: 410%;
+    transition: 0.5s;
+    background: rgba(161, 141, 235, 0.5);
+    border-radius: 10px;
+    z-index: 1;
+
+
+}
+
+.shoe1:hover {
+    height: 375px;
+    width: 590px;
+}
+
+.shoe1:hover span {
+    visibility: visible;
+}
+
+.shoe1 img {
+    height: 100%;
+
+}
+
+.shoe1 span {
+    visibility: hidden;
+    position: absolute;
+    font-size: 2vw;
+    bottom: -10%;
+    color: white;
+    font-family: sans-serif;
+}
+
+.shoe2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 360px;
+    width: 576px;
+    position: absolute;
+    left: 800px;
+    top: 410%;
+    transition: 0.5s;
+    background: rgba(161, 141, 235, 0.5);
+    border-radius: 10px;
+    z-index: 1;
+
+}
+
+.shoe2:hover {
+    height: 375px;
+    width: 590px;
+}
+
+.shoe2 img {
+    height: 88%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.shoe2:hover span {
+    visibility: visible;
+}
+
+.shoe2 span {
+    visibility: hidden;
+    position: absolute;
+    font-size: 2vw;
+    bottom: -10%;
+    color: white;
+    font-family: arial, sans-serif;
+}
+
+.run {
+    position: absolute;
+    top: 460%;
+    width: 100%;
+    text-align: center;
+    font-size: 2vw;
+    color: #EB9A41;
+}
+
+.bag {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heart {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.player1 {
+    position: absolute;
+    align-content: center;
+    top: 350px;
+    height: 100px;
+    width: 100px;
+}
+
+
+.navigation1{
+    position: absolute;
+    top: 58px;
+    left:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+.dropdown{
+    display: block;
+    justify-content: center;
+    width: 80px;
+    height: 200px;
+}
+.dropbtn{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    padding: 5px 0 0 0;
+}
+.dropbtn:hover{
+    background: white;
+    color: black;
+}
+.dropdown-content{
+    position: absolute;
+    top: 50px;
+    display: block;
+    visibility: hidden;
+    list-style: none;
+    background: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    width: 200px;
+    z-index: 1;
+}
+.navigation1 .dropdown:hover .dropdown-content{
+    visibility: visible;
+}
+.dropdown-content li{
+    color: black
+}
+.dropdown-content li:hover{
+    color: white;
+    background: black
+}
+.man {
+    position: absolute;
+    top: 130%;
+    left: 13%;
+    height: 60%;
+    width: 19%;
+    border: solid 5px;
+    border-radius: 10px;
+    background: linear-gradient(lightblue, lightgreen);
+    transition: 0.5s;
+}
+
+.man:hover {
+    background: linear-gradient(#FA998C, #54A6FF);
+    box-shadow: 1px 1px 5px 5px #FA998C;
+    height: 61%;
+    width: 19.5%;
+}
+
+.woman {
+    position: absolute;
+    top: 130%;
+    left: 69%;
+    height: 60%;
+    width: 18%;
+    border: solid 5px;
+    border-radius: 10px;
+    background: linear-gradient(lightblue, lightgreen);
+    transition: 0.5s;
+}
+
+.woman:hover {
+    background: linear-gradient(#FA998C, #54A6FF);
+    box-shadow: 1px 1px 5px 5px #FA998C;
+    height: 61%;
+    width: 18.5%;
+}
+
+.kid {
+    position: absolute;
+    top: 145%;
+    left: 43%;
+    height: 45%;
+    width: 14%;
+    border: solid 5px;
+    border-radius: 10px;
+    background: linear-gradient(lightgreen, lightblue);
+    transition: 0.5s;
+}
+
+.kid:hover {
+    background: linear-gradient(#FA998C, #54A6FF);
+    box-shadow: 1px 1px 5px 5px #54A6FF;
+    height: 46%;
+    width: 14.5%;
+}
+
+
+.jordanwhynot {
+    position: absolute;
+    top: 280%;
+    left: 2%;
+    width: 96%;
+    height: 100%;
+}
+
+.shoehead {
+    position: absolute;
+    top: 320%;
+    font-size: 70px;
+    text-align: center;
+    padding: 32%;
+}
+
+.shoedetail {
+    position: absolute;
+    top: 358%;
+    font-size: 25px;
+    text-align: center;
+    padding: 18%;
+}
+
+.shopnow {
+    position: absolute;
+    top: 395%;
+    left: 44%;
+    color: #E3EAE4;
+    background: black;
+    border: solid 5px black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.shopnow:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 4px 4px #363030;
+}
+
+.text1 {
+    position: absolute;
+    top: 100%;
+    padding: 10%;
+    text-align: center;
+}
+
+
+.footer {
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 4000px;
+    left: 0;
+    background: black;
+}
+
+.f1 {
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 1%;
+    justify-content: space-evenly;
+    line-height: 35%;
+}
+
+.f1:hover {
+    cursor: pointer;
+}
+
+.f2 {
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    justify-content: space-evenly;
+    line-height: 10%;
+}
+
+.f2:hover {
+    cursor: pointer;
+}
+
+.f3 {
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    justify-content: space-evenly;
+    line-height: 10%;
+}
+
+.f3:hover {
+    cursor: pointer;
+}
+
+.f4 {
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    justify-content: space-evenly;
+    line-height: 10%;
+}
+
+.f4:hover {
+    cursor: pointer;
+}
+
+.ig {
+    position: absolute;
+    top: 200%;
+    height: 30px;
+    width: 30px;
+    transition: 0.3s;
+}
+
+.ig:hover {
+    height: 33px;
+    width: 33px;
+}
+
+.fb {
+    position: absolute;
+    top: 200%;
+    left: 25%;
+    height: 28px;
+    width: 28px;
+    transition: 0.3s;
+}
+
+.fb:hover {
+    height: 33px;
+    width: 33px;
+}
+
+.tw {
+    position: absolute;
+    top: 210%;
+    left: 52%;
+    height: 25px;
+    width: 25px;
+    transition: 0.3s;
+}
+
+.tw:hover {
+    height: 30px;
+    width: 30px;
+}
+
+.about {
+    color: grey;
+}
+
+
+.help {
+    color: grey;
+}
+
+.status:hover {
+    color: white;
+    transition: 0.2s
+}
+
+.delivery:hover {
+    color: white;
+    transition: 0.2s
+}
+
+.return:hover {
+    color: white;
+    transition: 0.2s
+}
+
+.contact:hover {
+    color: white;
+    transition: 0.2s
+}
+
+.news:hover {
+    color: white;
+    transition: 0.2s
+}
+
+.career:hover {
+    color: white;
+    transition: 0.2s
+}
+
+.sale:hover {
+    color: white;
+    transition: 0.2s
+}
+
+.use:hover {
+    color: white;
+    transition: 0.2s
+}
+
+.policy:hover {
+    color: white;
+    transition: 0.2s
+}
+
+.up:hover {
+    text-decoration-line: underline;
+}
+
+.store:hover {
+    text-decoration-line: underline;
+}
+
+.student:hover {
+    text-decoration-line: underline;
+}
+
+.feedback:hover {
+    text-decoration-line: underline;
+}
+
+.download {
+    z-index: 1;
+    position: absolute;
+    top: 130%;
+    left: 42.6%;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+    background: black;
+    border: solid 5px black;
+    border-radius: 10px;
+}
+
+.download:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 4px 4px #363030;
+}
+
+
+.bdmc {
+    position: absolute;
+    top: 230%;
+    height: 40%;
+    width: 32%;
+    left: 34.5%;
+    opacity: 0.7;
+}
+
+.bdmc:hover {
+    opacity: 1;
+}
+
+.bdml {
+    position: absolute;
+    top: 230%;
+    height: 44%;
+    width: 32%;
+    left: 2.5%;
+    opacity: 0.6;
+}
+
+.bdml:hover {
+    opacity: 1;
+}
+
+.bdmr {
+    position: absolute;
+    top: 230%;
+    height: 43.5%;
+    width: 32%;
+    left: 66.5%;
+    opacity: 0.6;
+}
+
+.bdmr:hover {
+    opacity: 1;
+}
+
+.badminton {
+    position: absolute;
+    top: 205%;
+    left: 23%;
+    font-size: 60px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 15px;
+    word-spacing: 10px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.bdm {
+    position: absolute;
+    top: 221.5%;
+    left: 11%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.shopbadminton {
+    position: absolute;
+    top: 272%;
+    left: 44.5%;
+    font-size: 20px;
+    border: solid 5px black;
+    background: black;
+    border-radius: 10px;
+    color: white;
+}
+
+.shopbadminton:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 4px 4px #363030;
+}
+
+
+.shopmen {
+    position: absolute;
+    top: 192.5%;
+    left: 18.6%;
+    z-index: 1;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    background: black;
+    border: solid 5px black;
+    border-radius: 10px;
+}
+
+.shopmen:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 4px 4px #363030;
+}
+
+.shopwomen {
+    position: absolute;
+    top: 192.5%;
+    left: 73.2%;
+    z-index: 1;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    background: black;
+    border: solid 5px black;
+    border-radius: 10px;
+}
+
+.shopwomen:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 4px 4px #363030;
+}
+
+.shopkids {
+    position: absolute;
+    top: 192.5%;
+    left: 46.2%;
+    z-index: 1;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    background: black;
+    border: solid 5px black;
+    border-radius: 10px;
+}
+
+.shopkids:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 4px 4px #363030;
+}

@@ -77,8 +77,9 @@ header .sitename {
 
 .video1 {
     position: absolute;
-    top: 4%;
+    top: 150px;
     left: 2%;
+    width: 96%;
 }
 
 
